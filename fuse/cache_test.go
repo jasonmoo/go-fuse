@@ -2,7 +2,7 @@ package fuse
 
 import (
 	"bytes"
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 	"io/ioutil"
 	"log"
 	"os"

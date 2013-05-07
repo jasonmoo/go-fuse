@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 type MutableDataFile struct {

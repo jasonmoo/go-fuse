@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/zipfs"
+	"github.com/jasonmoo/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/zipfs"
 	"log"
 	"os"
 	"path/filepath"

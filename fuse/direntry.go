@@ -6,7 +6,7 @@ import (
 	"log"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 var _ = log.Print

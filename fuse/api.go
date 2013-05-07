@@ -6,7 +6,7 @@ package fuse
 import (
 	"time"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 // Types for users to implement.

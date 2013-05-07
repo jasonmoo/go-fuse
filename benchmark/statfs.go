@@ -1,7 +1,7 @@
 package benchmark
 
 import (
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 	"path/filepath"
 	"strings"
 	"time"

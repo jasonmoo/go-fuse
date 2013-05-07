@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 )
 
 type knownFs struct {

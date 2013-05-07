@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hanwen/go-fuse/splice"
+	"github.com/jasonmoo/go-fuse/splice"
 )
 
 func (s *MountState) setSplice() {

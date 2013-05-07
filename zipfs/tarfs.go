@@ -6,7 +6,7 @@ import (
 	"compress/bzip2"
 	"compress/gzip"
 	"fmt"
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 	"io"
 	"os"
 	"strings"

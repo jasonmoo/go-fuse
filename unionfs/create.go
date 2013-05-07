@@ -1,7 +1,7 @@
 package unionfs
 
 import (
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 	"os"
 )
 

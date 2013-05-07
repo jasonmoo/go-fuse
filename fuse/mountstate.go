@@ -11,7 +11,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 const (
@@ -175,7 +175,7 @@ func (ms *MountState) Unmount() (err error) {
 		time.Sleep(delay)
 	}
 	if err != nil {
-		return 
+		return
 	}
 	// Wait for event loops to exit.
 	ms.loops.Wait()

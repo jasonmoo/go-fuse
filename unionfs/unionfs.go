@@ -3,8 +3,8 @@ package unionfs
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/raw"
 	"log"
 	"os"
 	"path"

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 var sizeOfOutHeader = unsafe.Sizeof(raw.OutHeader{})

@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 	"io"
 	"log"
 	"os"

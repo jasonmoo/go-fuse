@@ -2,7 +2,7 @@ package benchmark
 
 import (
 	"fmt"
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 	"io/ioutil"
 	"log"
 	"os"

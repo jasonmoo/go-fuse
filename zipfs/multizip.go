@@ -11,7 +11,7 @@ symlinking path/to/zipfile to /config/zipmount
 */
 
 import (
-	"github.com/hanwen/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/fuse"
 	"log"
 	"path/filepath"
 	"sync"

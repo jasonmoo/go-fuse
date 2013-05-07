@@ -1,7 +1,7 @@
 package fuse
 
 import (
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 	"os"
 	"syscall"
 )

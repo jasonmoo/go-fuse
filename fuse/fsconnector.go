@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 // Tests should set to true.
@@ -128,7 +128,7 @@ func (c *FileSystemConnector) lookupUpdate(node *Inode) (id uint64) {
 func (c *FileSystemConnector) forgetUpdate(nodeID uint64, forgetCount int) {
 	if nodeID == raw.FUSE_ROOT_ID {
 		c.nodeFs.OnUnmount()
-		
+
 		// We never got a lookup for root, so don't try to
 		// forget root.
 		return

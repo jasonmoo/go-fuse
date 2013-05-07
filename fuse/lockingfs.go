@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 // This is a wrapper that makes a FileSystem threadsafe by

@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/unionfs"
+	"github.com/jasonmoo/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/unionfs"
 	"os"
 	"time"
 )

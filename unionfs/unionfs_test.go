@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/fuse"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 var _ = fmt.Print

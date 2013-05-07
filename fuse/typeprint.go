@@ -2,7 +2,7 @@ package fuse
 
 import (
 	"fmt"
-	"github.com/hanwen/go-fuse/raw"
+	"github.com/jasonmoo/go-fuse/raw"
 )
 
 func (me *WithFlags) String() string {
