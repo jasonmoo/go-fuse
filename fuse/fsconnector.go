@@ -82,7 +82,7 @@ func NewFileSystemConnector(nodeFs NodeFileSystem, opts *FileSystemOptions) (c *
 }
 
 func (c *FileSystemConnector) nextGeneration() uint64 {
-	return atomic.AddUint64(&c.generation, 1)
+	return atomic.AddUint64(&(c.generation), 1)
 }
 
 // This verifies invariants of the data structure.  This routine
